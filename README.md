@@ -85,7 +85,9 @@ Para este propósito, se han planteado diversas arquitecturas de red neuronal a 
 * *ratingNet*: Modelo con una capa GRU central y sin función de activación (emula el problema de regresión).  
 * *ratingNetfc*: Versión de *ratingNet* con una capa fully-connected adicional.
 
-Como se indicó, la que mejores prestaciones ofreción fue la RNN, es decir, *ratingNet*.
+Como se indicó, la que mejores prestaciones ofreció fue la RNN, es decir, *ratingNet*.
+
+Por otro lado, se implementó un regresor k-NN que ofreció peores resultados.
 
 ## *Fine-tuning* de un modelo preentrenado con *Hugging Face*
 
